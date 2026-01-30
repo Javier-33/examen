@@ -48,7 +48,7 @@ object Examen extends IOApp.Simple {
 ```
 
 
-Crea la tabla MySql ataques si no existe desde el codigo de Scala.
+Desde el codigo de Scala crea la tabla MySql ataques si no existe.
 
 ```scala
   def crearTabla(): ConnectionIO[Int] =
