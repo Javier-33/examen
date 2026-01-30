@@ -165,7 +165,7 @@ Cada línea del CSV se divide por comas y se envía como parámetros al método 
 
 Aquí se arma el flujo de ejecución:
     
-    ```scala
+```scala
     val programa = for {
       _     <- crearTabla()
       _     <- limpiarTabla()
